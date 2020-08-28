@@ -1,4 +1,11 @@
-#!/usr/bin/Rscript
+#!/usr/bin/env/Rscript
+##################################################################
+# This script produce uses DESEQ2 to analyze the differential expressed genes 
+#	of S. ixodetis in the gut, hemolymph and ovary of D. coccus
+#	Author Arturo Vera
+#	avera@ccg.unam.mx
+#	Feb 2020
+##############################################################################
 library(DESeq2)
 library(tximport)
 library(readr)
